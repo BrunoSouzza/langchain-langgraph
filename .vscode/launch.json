@@ -5,7 +5,7 @@
             "id": "targetScript",
             "type": "promptString",
             "description": "Informe o caminho relativo do arquivo Python a executar",
-            "default": "001-langchain-vs-langgraph/main.py"
+            "default": "001-langchain-vs-langgraph/ex002.py"
         }
     ],
     "configurations": [

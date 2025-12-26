@@ -7,6 +7,8 @@ license = "MIT"
 authors = [{ name = "Bruno de Jesus Souza", email = "bsouza.sts@outlook.com" }]
 requires-python = ">=3.11"
 dependencies = [
+    "langchain[google-genai]>=1.2.0",
+    "rich>=14.2.0",
     "ruff>=0.14.10",
 ]
 

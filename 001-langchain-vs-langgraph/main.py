@@ -1,5 +1,11 @@
+from langchain.chat_models import init_chat_model
+from rich import print
 
+llm = init_chat_model("google_genai:gemini-2.5-flash")
 
-import os 
-    
-print("GOOGLE_API_KEY:", os.getenv("GOOGLE_API_KEY"))
+# Console output for debugging
+# print(llm, type(llm))
+
+response = llm.invoke("Olá, tudo bem?")
+
+print(response)
