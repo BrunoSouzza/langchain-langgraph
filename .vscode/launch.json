@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "inputs": [
+        {
+            "id": "targetScript",
+            "type": "promptString",
+            "description": "Informe o caminho relativo do arquivo Python a executar",
+            "default": "001-langchain-vs-langgraph/main.py"
+        }
+    ],
+    "configurations": [
+        {
+            "name": "uv run (escolher arquivo)",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "uv run --env-file=.env ${input:targetScript}",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
