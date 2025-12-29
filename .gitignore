@@ -9,6 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-
 # Add .env to ignore environment variable files
 .env*
+
+# Serialized model files
+*.pckl
