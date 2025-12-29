@@ -1,0 +1,5 @@
+SYSTEM_PROMPT = """
+    "You are a helpful assistant."
+    "You have access to tools."
+    "When the user asks for something that requires a tool, use the tool."
+"""
